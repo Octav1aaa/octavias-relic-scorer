@@ -1,0 +1,1185 @@
+{
+  "Remembrance Trailblazer": {
+    "Chest": {
+      "CritDMG": 1.0
+    },
+    "Boots": {
+      "SPD": 1.0
+    },
+    "Sphere": {
+      "Elemental%(Correct)": 1.0,
+      "HP%": 1.0,
+      "DEF%": 1.0
+    },
+    "Rope": {
+      "Energy": 1.0
+    }
+  },
+  "Harmony Trailblazer": {
+    "Chest": {
+      "HP%": 1.0,
+      "DEF%": 1.0
+    },
+    "Boots": {
+      "SPD": 1.0
+    },
+    "Sphere": {
+      "HP%": 1.0,
+      "DEF%": 1.0
+    },
+    "Rope": {
+      "Break%": 1.0,
+      "Energy": 1.0
+    }
+  },
+  "Preservation Trailblazer": {
+    "Chest": {
+      "DEF%": 1.0
+    },
+    "Boots": {
+      "SPD": 1.0,
+      "DEF%": 1.0
+    },
+    "Sphere": {
+      "Elemental%(Correct)": 1.0,
+      "DEF%": 1.0
+    },
+    "Rope": {
+      "DEF%": 1.0,
+      "Energy": 1.0
+    }
+  },
+  "Destruction Trailblazer": {
+    "Chest": {
+      "CritRate": 1.0,
+      "CritDMG": 1.0
+    },
+    "Boots": {
+      "SPD": 1.0
+    },
+    "Sphere": {
+      "ATK%": 1.0,
+      "Elemental%(Correct)": 1.0
+    },
+    "Rope": {
+      "ATK%": 1.0,
+      "Break%": 1.0
+    }
+  },
+  "Hysilens": {
+    "Chest": {
+      "EHR%": 1.0,
+      "ATK%": 1.0
+    },
+    "Boots": {
+      "SPD": 1.0
+    },
+    "Sphere": {
+      "ATK%": 1.0,
+      "Elemental%(Correct)": 1.0
+    },
+    "Rope": {
+      "ATK%": 1.0,
+      "Energy": 0.5
+    }
+  },
+  "Hyacine": {
+    "Chest": {
+      "Healing": 1.0,
+      "HP%": 0.5
+    },
+    "Boots": {
+      "SPD": 1.0
+    },
+    "Sphere": {
+      "HP%": 1.0
+    },
+    "Rope": {
+      "Energy": 1.0
+    }
+  },
+  "Phainon": {
+    "Chest": {
+      "CritRate": 1.0,
+      "CritDMG": 1.0
+    },
+    "Boots": {
+      "SPD": 1.0
+    },
+    "Sphere": {
+      "ATK%": 1.0,
+      "Elemental%(Correct)": 1.0
+    },
+    "Rope": {
+      "ATK%": 1.0
+    }
+  },
+  "Castorice": {
+    "Chest": {
+      "CritDMG": 1.0,
+      "CritRate": 1.0
+    },
+    "Boots": {
+      "HP%": 1.0
+    },
+    "Sphere": {
+      "HP%": 1.0,
+      "Elemental%(Correct)": 1.0
+    },
+    "Rope": {
+      "HP%": 1.0
+    }
+  },
+  "Cipher": {
+    "Chest": {
+      "EHR%": 1.0
+    },
+    "Boots": {
+      "SPD": 1.0
+    },
+    "Sphere": {
+      "ATK%": 1.0,
+      "Elemental%(Correct)": 1.0
+    },
+    "Rope": {
+      "Energy": 1.0,
+      "ATK%": 1.0
+    }
+  },
+  "Anaxa": {
+    "Chest": {
+      "CritRate": 1.0,
+      "CritDMG": 1.0
+    },
+    "Boots": {
+      "SPD": 1.0
+    },
+    "Sphere": {
+      "Elemental%(Correct)": 1.0,
+      "ATK%": 1.0
+    },
+    "Rope": {
+      "ATK%": 1.0,
+      "Energy": 1.0
+    }
+  },
+  "Mydei": {
+    "Chest": {
+      "HP%": 1.0,
+      "CritDMG": 1.0
+    },
+    "Boots": {},
+    "Sphere": {
+      "HP%": 1.0,
+      "Elemental%(Correct)": 1.0
+    },
+    "Rope": {
+      "HP%": 1.0
+    }
+  },
+  "Tribbie": {
+    "Chest": {
+      "CritDMG": 1.0,
+      "CritRate": 1.0
+    },
+    "Boots": {},
+    "Sphere": {
+      "HP%": 1.0,
+      "Elemental%(Correct)": 0.5
+    },
+    "Rope": {
+      "Energy": 1.0,
+      "HP%": 0.5
+    }
+  },
+  "Aglaea": {
+    "Chest": {
+      "CritDMG": 1.0,
+      "CritRate": 1.0
+    },
+    "Boots": {
+      "SPD": 1.0
+    },
+    "Sphere": {
+      "Elemental%(Correct)": 1.0
+    },
+    "Rope": {
+      "Energy": 1.0,
+      "ATK%": 1.0
+    }
+  },
+  "The Herta": {
+    "Chest": {
+      "CritRate": 1.0,
+      "CritDMG": 1.0
+    },
+    "Boots": {
+      "SPD": 1.0
+    },
+    "Sphere": {
+      "Elemental%(Correct)": 1.0,
+      "ATK%": 1.0
+    },
+    "Rope": {
+      "ATK%": 1.0,
+      "Energy": 1.0
+    }
+  },
+  "Rappa": {
+    "Chest": {
+      "ATK%": 1.0
+    },
+    "Boots": {
+      "SPD": 1.0
+    },
+    "Sphere": {
+      "ATK%": 1.0
+    },
+    "Rope": {
+      "Break%": 1.0,
+      "Energy": 1.0
+    }
+  },
+  "Boothill": {
+    "Chest": {
+      "HP%": 1.0,
+      "ATK%": 1.0,
+      "DEF%": 1.0,
+      "EHR%": 1.0,
+      "Healing": 1.0,
+      "CritRate": 1.0,
+      "CritDMG": 1.0
+    },
+    "Boots": {
+      "SPD": 1.0
+    },
+    "Sphere": {
+      "HP%": 1.0,
+      "ATK%": 1.0,
+      "DEF%": 1.0
+    },
+    "Rope": {
+      "Break%": 1.0
+    }
+  },
+  "Jade": {
+    "Chest": {
+      "CritDMG": 1.0,
+      "CritRate": 1.0
+    },
+    "Boots": {
+      "SPD": 1.0
+    },
+    "Sphere": {
+      "Elemental%(Correct)": 1.0
+    },
+    "Rope": {
+      "ATK%": 1.0
+    }
+  },
+  "Sunday": {
+    "Chest": {
+      "CritDMG": 1.0
+    },
+    "Boots": {},
+    "Sphere": {
+      "HP%": 1.0,
+      "DEF%": 1.0
+    },
+    "Rope": {
+      "Energy": 1.0
+    }
+  },
+  "Firefly": {
+    "Chest": {
+      "ATK%": 1.0
+    },
+    "Boots": {
+      "SPD": 1.0
+    },
+    "Sphere": {
+      "ATK%": 1.0
+    },
+    "Rope": {
+      "Break%": 1.0
+    }
+  },
+  "Robin": {
+    "Chest": {
+      "ATK%": 1.0,
+      "HP%": 1.0,
+      "DEF%": 1.0
+    },
+    "Boots": {
+      "SPD": 1.0
+    },
+    "Sphere": {
+      "ATK%": 1.0,
+      "HP%": 1.0,
+      "DEF%": 1.0
+    },
+    "Rope": {
+      "Elemental%(Correct)": 1.0,
+      "Energy": 1.0
+    }
+  },
+  "Acheron": {
+    "Chest": {
+      "CritDMG": 1.0,
+      "CritRate": 1.0
+    },
+    "Boots": {
+      "SPD": 1.0
+    },
+    "Sphere": {
+      "Elemental%(Correct)": 1.0,
+      "ATK%": 1.0
+    },
+    "Rope": {
+      "ATK%": 1.0
+    }
+  },
+  "Black Swan": {
+    "Chest": {
+      "EHR%": 1.0,
+      "ATK%": 1.0
+    },
+    "Boots": {
+      "SPD": 1.0
+    },
+    "Sphere": {
+      "Elemental%(Correct)": 1.0,
+      "ATK%": 1.0
+    },
+    "Rope": {
+      "ATK%": 1.0
+    }
+  },
+  "Sparkle": {
+    "Chest": {
+      "CritDMG": 1.0,
+      "HP%": 1.0,
+      "DEF%": 1.0
+    },
+    "Boots": {
+      "SPD": 1.0
+    },
+    "Sphere": {
+      "HP%": 1.0,
+      "DEF%": 1.0
+    },
+    "Rope": {
+      "Energy": 1.0
+    }
+  },
+  "Dr Ratio": {
+    "Chest": {
+      "CritRate": 1.0,
+      "CritDMG": 1.0
+    },
+    "Boots": {
+      "SPD": 1.0
+    },
+    "Sphere": {
+      "Elemental%(Correct)": 1.0,
+      "ATK%": 1.0
+    },
+    "Rope": {
+      "ATK%": 1.0
+    }
+  },
+  "Adventurine": {
+    "Chest": {
+      "DEF%": 1.0,
+      "CritDMG": 1.0
+    },
+    "Boots": {
+      "SPD": 1.0
+    },
+    "Sphere": {
+      "DEF%": 1.0,
+      "Elemental%(Correct)": 1.0
+    },
+    "Rope": {
+      "DEF%": 1.0
+    }
+  },
+  "Ruan Mei": {
+    "Chest": {
+      "HP%": 1.0,
+      "DEF%": 1.0
+    },
+    "Boots": {
+      "SPD": 1.0
+    },
+    "Sphere": {
+      "HP%": 1.0,
+      "DEF%": 1.0
+    },
+    "Rope": {
+      "Break%": 1.0,
+      "Energy": 1.0
+    }
+  },
+  "Argenti": {
+    "Chest": {
+      "CritRate": 1.0,
+      "CritDMG": 1.0
+    },
+    "Boots": {
+      "SPD": 1.0
+    },
+    "Sphere": {
+      "Elemental%(Correct)": 1.0,
+      "ATK%": 1.0
+    },
+    "Rope": {
+      "ATK%": 1.0
+    }
+  },
+  "Fugue": {
+    "Chest": {
+      "EHR%": 1.0
+    },
+    "Boots": {},
+    "Sphere": {
+      "HP%": 1.0,
+      "DEF%": 1.0
+    },
+    "Rope": {
+      "Energy": 1.0,
+      "Break%": 1.0
+    }
+  },
+  "Lingsha": {
+    "Chest": {
+      "Healing": 1.0
+    },
+    "Boots": {
+      "SPD": 1.0
+    },
+    "Sphere": {
+      "ATK%": 1.0
+    },
+    "Rope": {
+      "Energy": 1.0,
+      "Break%": 1.0
+    }
+  },
+  "Yunli": {
+    "Chest": {
+      "CritDMG": 1.0,
+      "CritRate": 1.0
+    },
+    "Boots": {},
+    "Sphere": {
+      "Elemental%(Correct)": 1.0,
+      "ATK%": 1.0
+    },
+    "Rope": {
+      "ATK%": 1.0,
+      "Energy": 1.0
+    }
+  },
+  "Feixiao": {
+    "Chest": {
+      "CritRate": 1.0,
+      "CritDMG": 1.0
+    },
+    "Boots": {
+      "SPD": 1.0
+    },
+    "Sphere": {
+      "Elemental%(Correct)": 1.0,
+      "ATK%": 1.0
+    },
+    "Rope": {
+      "ATK%": 1.0
+    }
+  },
+  "Jiaoqiu": {
+    "Chest": {
+      "EHR%": 1.0
+    },
+    "Boots": {
+      "SPD": 1.0
+    },
+    "Sphere": {
+      "Elemental%(Correct)": 1.0
+    },
+    "Rope": {
+      "Energy": 0.5
+    }
+  },
+  "Huohuo": {
+    "Chest": {
+      "HP%": 1.0,
+      "Healing": 1.0
+    },
+    "Boots": {
+      "SPD": 1.0
+    },
+    "Sphere": {
+      "HP%": 1.0
+    },
+    "Rope": {
+      "Energy": 1.0
+    }
+  },
+  "Imbibitor Lunae": {
+    "Chest": {
+      "CritDMG": 1.0,
+      "CritRate": 1.0
+    },
+    "Boots": {
+      "SPD": 1.0
+    },
+    "Sphere": {
+      "Elemental%(Correct)": 1.0,
+      "ATK%": 1.0
+    },
+    "Rope": {
+      "ATK%": 1.0,
+      "Energy": 0.5
+    }
+  },
+  "Jingliu": {
+    "Chest": {
+      "CritDMG": 1.0,
+      "CritRate": 1.0
+    },
+    "Boots": {},
+    "Sphere": {
+      "Elemental%(Correct)": 1.0,
+      "ATK%": 1.0
+    },
+    "Rope": {
+      "ATK%": 1.0
+    }
+  },
+  "Bailu": {
+    "Chest": {
+      "Healing": 1.0,
+      "HP%": 1.0
+    },
+    "Boots": {
+      "SPD": 0.5
+    },
+    "Sphere": {
+      "HP%": 1.0
+    },
+    "Rope": {
+      "Energy": 1.0
+    }
+  },
+  "Yanqing": {
+    "Chest": {
+      "CritDMG": 1.0
+    },
+    "Boots": {
+      "SPD": 1.0
+    },
+    "Sphere": {
+      "Elemental%(Correct)": 1.0,
+      "ATK%": 1.0
+    },
+    "Rope": {
+      "ATK%": 1.0
+    }
+  },
+  "Fuxuan": {
+    "Chest": {
+      "HP%": 1.0,
+      "DEF%": 1.0
+    },
+    "Boots": {
+      "SPD": 1.0
+    },
+    "Sphere": {
+      "HP%": 1.0,
+      "DEF%": 1.0
+    },
+    "Rope": {
+      "Energy": 1.0,
+      "HP%": 0.5
+    }
+  },
+  "Blade": {
+    "Chest": {
+      "CritDMG": 1.0,
+      "CritRate": 1.0
+    },
+    "Boots": {
+      "SPD": 0.25
+    },
+    "Sphere": {
+      "Elemental%(Correct)": 1.0,
+      "HP%": 1.0
+    },
+    "Rope": {
+      "HP%": 1.0
+    }
+  },
+  "Jing yuan": {
+    "Chest": {
+      "CritDMG": 1.0,
+      "CritRate": 1.0
+    },
+    "Boots": {
+      "SPD": 1.0
+    },
+    "Sphere": {
+      "Elemental%(Correct)": 1.0,
+      "ATK%": 1.0
+    },
+    "Rope": {
+      "ATK%": 1.0
+    }
+  },
+  "Luocha": {
+    "Chest": {
+      "Healing": 1.0
+    },
+    "Boots": {
+      "SPD": 1.0
+    },
+    "Sphere": {
+      "ATK%": 1.0
+    },
+    "Rope": {
+      "Energy": 1.0,
+      "Break%": 1.0
+    }
+  },
+  "Topaz and Numby": {
+    "Chest": {
+      "CritRate": 1.0,
+      "CritDMG": 1.0
+    },
+    "Boots": {
+      "SPD": 1.0
+    },
+    "Sphere": {
+      "Elemental%(Correct)": 1.0,
+      "ATK%": 1.0
+    },
+    "Rope": {
+      "ATK%": 1.0
+    }
+  },
+  "Clara": {
+    "Chest": {
+      "CritRate": 1.0,
+      "CritDMG": 1.0
+    },
+    "Boots": {
+      "SPD": 1.0
+    },
+    "Sphere": {
+      "Elemental%(Correct)": 1.0,
+      "ATK%": 1.0
+    },
+    "Rope": {
+      "ATK%": 1.0
+    }
+  },
+  "Gepard": {
+    "Chest": {
+      "DEF%": 1.0
+    },
+    "Boots": {},
+    "Sphere": {
+      "DEF%": 1.0
+    },
+    "Rope": {
+      "Energy": 1.0
+    }
+  },
+  "Seele": {
+    "Chest": {
+      "CritRate": 1.0,
+      "CritDMG": 1.0
+    },
+    "Boots": {
+      "SPD": 1.0
+    },
+    "Sphere": {
+      "Elemental%(Correct)": 1.0,
+      "ATK%": 1.0
+    },
+    "Rope": {
+      "ATK%": 1.0
+    }
+  },
+  "Bronya": {
+    "Chest": {
+      "CritDMG": 1.0
+    },
+    "Boots": {},
+    "Sphere": {
+      "HP%": 1.0,
+      "DEF%": 1.0
+    },
+    "Rope": {
+      "Energy": 1.0
+    }
+  },
+  "Archer": {
+    "Chest": {
+      "CritRate": 1.0
+    },
+    "Boots": {
+      "SPD": 1.0
+    },
+    "Sphere": {
+      "Elemental%(Correct)": 1.0,
+      "ATK%": 1.0
+    },
+    "Rope": {
+      "ATK%": 1.0
+    }
+  },
+  "Saber": {
+    "Chest": {
+      "CritRate": 1.0,
+      "CritDMG": 1.0
+    },
+    "Boots": {
+      "SPD": 1.0
+    },
+    "Sphere": {
+      "Elemental%(Correct)": 1.0,
+      "ATK%": 1.0
+    },
+    "Rope": {
+      "ATK%": 1.0
+    }
+  },
+  "Silver wolf": {
+    "Chest": {
+      "EHR%": 1.0,
+      "HP%": 1.0,
+      "CritRate": 1.0,
+      "CritDMG": 1.0
+    },
+    "Boots": {},
+    "Sphere": {
+      "Elemental%(Correct)":
+      1.0,
+      "HP%": 1.0,
+      "DEF%": 1.0
+    },
+    "Rope": {
+      "Energy": 1.0,
+      "ATK%": 1.0
+    }
+  },
+  "Kafka": {
+    "Chest": {
+      "ATK%": 1.0
+    },
+    "Boots": {
+      "SPD": 1.0
+    },
+    "Sphere": {
+      "ATK%": 1.0
+    },
+    "Rope": {
+      "Energy": 0.5
+    }
+  },
+  "Welt": {
+    "Chest": {
+      "CritRate": 1.0,
+      "CritDMG": 1.0,
+      "EHR%": 1.0
+    },
+    "Boots": {
+      "SPD": 1.0
+    },
+    "Sphere": {
+      "Elemental%(Correct)": 1.0,
+      "ATK%": 1.0
+    },
+    "Rope": {
+      "ATK%": 1.0,
+      "Energy": 1.0
+    }
+  },
+  "Himeko": {
+    "Chest": {
+      "CritRate": 1.0,
+      "CritDMG": 1.0
+    },
+    "Boots": {
+      "SPD": 1.0
+    },
+    "Sphere": {
+      "Elemental%(Correct)": 1.0,
+      "ATK%": 1.0
+    },
+    "Rope": {
+      "ATK%": 1.0
+    }
+  },
+  "Misha": {
+    "Chest": {
+      "CritRate": 1.0,
+      "CritDMG": 1.0
+    },
+    "Boots": {
+      "SPD": 1.0
+    },
+    "Sphere": {
+      "Elemental%(Correct)": 1.0,
+      "ATK%": 1.0
+    },
+    "Rope": {
+      "ATK%": 1.0
+    }
+  },
+  "Gallahger": {
+    "Chest": {
+      "Healing": 1.0,
+      "HP%": 1.0
+    },
+    "Boots": {},
+    "Sphere": {
+      "HP%": 1.0,
+      "DEF%": 1.0
+    },
+    "Rope": {
+      "Energy": 1.0
+    }
+  },
+  "March 7th the hunt": {
+    "Chest": {
+      "CritDMG": 1.0,
+      "CritRate": 1.0
+    },
+    "Boots": {
+      "SPD": 1.0
+    },
+    "Sphere": {
+      "Elemental%(Correct)": 1.0,
+      "ATK%": 1.0
+    },
+    "Rope": {
+      "ATK%": 1.0,
+      "Break%": 1.0
+    }
+  },
+  "MOze": {
+    "Chest": {
+      "CritRate": 1.0,
+      "CritDMG": 1.0
+    },
+    "Boots": {},
+    "Sphere": {
+      "Elemental%(Correct)": 1.0
+    },
+    "Rope": {
+      "ATK%": 1.0
+    }
+  },
+  "Hanya": {
+    "Chest": {
+      "HP%": 1.0,
+      "DEF%": 1.0
+    },
+    "Boots": {
+      "SPD": 1.0
+    },
+    "Sphere": {
+      "HP%": 1.0,
+      "DEF%": 1.0
+    },
+    "Rope": {
+      "Energy": 1.0
+    }
+  },
+  "Xueyi": {
+    "Chest": {
+      "CritRate": 1.0,
+      "CritDMG": 1.0
+    },
+    "Boots": {
+      "SPD": 1.0
+    },
+    "Sphere": {
+      "Elemental%(Correct)": 1.0,
+      "ATK%": 1.0
+    },
+    "Rope": {
+      "Break%": 1.0
+    }
+  },
+  "Guenaifen": {
+    "Chest": {
+      "ATK%": 1.0,
+      "EHR%": 1.0
+    },
+    "Boots": {
+      "SPD": 1.0
+    },
+    "Sphere": {
+      "Elemental%(Correct)": 1.0,
+      "ATK%": 1.0
+    },
+    "Rope": {
+      "ATK%": 1.0
+    }
+  },
+  "Yukong": {
+    "Chest": {
+      "HP%": 1.0,
+      "DEF%": 1.0
+    },
+    "Boots": {},
+    "Sphere": {
+      "HP%": 1.0,
+      "DEF%": 1.0
+    },
+    "Rope": {
+      "Energy": 1.0
+    }
+  },
+  "Sushang": {
+    "Chest": {
+      "CritRate": 1.0,
+      "CritDMG": 1.0
+    },
+    "Boots": {
+      "SPD": 1.0
+    },
+    "Sphere": {
+      "Elemental%(Correct)": 1.0,
+      "ATK%": 1.0
+    },
+    "Rope": {
+      "ATK%": 1.0,
+      "Break%": 1.0
+    }
+  },
+  "Tingyun": {
+    "Chest": {
+      "ATK%": 1.0,
+      "HP%": 1.0,
+      "DEF%": 1.0
+    },
+    "Boots": {
+      "SPD": 1.0
+    },
+    "Sphere": {
+      "ATK%": 1.0,
+      "HP%": 1.0,
+      "DEF%": 1.0
+    },
+    "Rope": {
+      "Energy": 1.0
+    }
+  },
+  "Qingque": {
+    "Chest": {
+      "CritRate": 1.0,
+      "CritDMG": 1.0
+    },
+    "Boots": {
+      "SPD": 1.0
+    },
+    "Sphere": {
+      "Elemental%(Correct)": 1.0,
+      "ATK%": 1.0
+    },
+    "Rope": {
+      "ATK%": 1.0
+    }
+  },
+  "Luka": {
+    "Chest": {
+      "EHR%": 1.0,
+      "ATK%": 1.0
+    },
+    "Boots": {
+      "SPD": 1.0
+    },
+    "Sphere": {
+      "Elemental%(Correct)": 1.0,
+      "ATK%": 1.0
+    },
+    "Rope": {
+      "Break%": 1.0
+    }
+  },
+  "Lynx": {
+    "Chest": {
+      "Healing": 1.0,
+      "HP%": 1.0
+    },
+    "Boots": {},
+    "Sphere": {
+      "HP%": 1.0
+    },
+    "Rope": {
+      "Energy": 1.0
+    }
+  },
+  "Hook": {
+    "Chest": {
+      "CritRate": 1.0,
+      "CritDMG": 1.0
+    },
+    "Boots": {
+      "SPD": 1.0
+    },
+    "Sphere": {
+      "ATK%": 1.0
+    },
+    "Rope": {
+      "Elemental%(Correct)": 1.0,
+      "ATK%": 1.0
+    }
+  },
+  "Sampo": {
+    "Chest": {
+      "EHR%": 1.0,
+      "ATK%": 1.0
+    },
+    "Boots": {
+      "SPD": 1.0
+    },
+    "Sphere": {
+      "Elemental%(Correct)": 1.0,
+      "ATK%": 1.0
+    },
+    "Rope": {
+      "ATK%": 1.0
+    }
+  },
+  "Pela": {
+    "Chest": {
+      "EHR%": 1.0,
+      "HP%": 1.0,
+      "DEF%": 1.0
+    },
+    "Boots": {
+      "SPD": 1.0
+    },
+    "Sphere": {
+      "DEF%": 1.0,
+      "HP%": 1.0
+    },
+    "Rope": {
+      "Energy": 1.0
+    }
+  },
+  "Natasha": {
+    "Chest": {
+      "Healing": 1.0,
+      "HP%": 1.0
+    },
+    "Boots": {},
+    "Sphere": {
+      "HP%": 1.0
+    },
+    "Rope": {
+      "Energy": 1.0
+    }
+  },
+  "Serval": {
+    "Chest": {
+      "CritRate": 1.0,
+      "CritDMG": 1.0
+    },
+    "Boots": {
+      "SPD": 1.0
+    },
+    "Sphere": {
+      "Elemental%(Correct)": 1.0,
+      "ATK%": 1.0
+    },
+    "Rope": {
+      "ATK%": 1.0
+    }
+  },
+  "Herta": {
+    "Chest": {
+      "CritRate": 1.0,
+      "CritDMG": 1.0
+    },
+    "Boots": {
+      "SPD": 1.0
+    },
+    "Sphere": {
+      "Elemental%(Correct)": 1.0,
+      "ATK%": 1.0
+    },
+    "Rope": {
+      "ATK%": 1.0
+    }
+  },
+  "Asta": {
+    "Chest": {
+      "HP%": 1.0,
+      "DEF%": 1.0
+    },
+    "Boots": {
+      "SPD": 1.0
+    },
+    "Sphere": {
+      "HP%": 1.0,
+      "DEF%": 1.0
+    },
+    "Rope": {
+      "Energy": 1.0
+    }
+  },
+  "Arlan": {
+    "Chest": {
+      "CritRate": 1.0,
+      "CritDMG": 1.0
+    },
+    "Boots": {
+      "SPD": 1.0
+    },
+    "Sphere": {
+      "Elemental%(Correct)": 1.0,
+      "ATK%": 1.0
+    },
+    "Rope": {
+      "ATK%": 1.0
+    }
+  },
+  "Dan heng": {
+    "Chest": {
+      "CritRate": 1.0,
+      "CritDMG": 1.0
+    },
+    "Boots": {
+      "SPD": 1.0
+    },
+    "Sphere": {
+      "Elemental%(Correct)": 1.0,
+      "ATK%": 1.0
+    },
+    "Rope": {
+      "ATK%": 1.0
+    }
+  },
+  "March 7th": {
+    "Chest": {
+      "EHR%": 1.0,
+      "DEF%": 1.0
+    },
+    "Boots": {
+      "SPD": 1.0
+    },
+    "Sphere": {
+      "DEF%": 1.0
+    },
+    "Rope": {
+      "DEF%": 1.0,
+      "Energy": 1.0
+    }
+  }
+}
