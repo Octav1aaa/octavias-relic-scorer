@@ -1,0 +1,36 @@
+# PyCharm
+.idea/
+*.iml
+*.iws
+
+# Python
+__pycache__/
+*.pyc
+*.pyd
+*.o
+*.egg
+*.egg-info/
+.Python
+build/
+dist/
+venv/
+env/
+.env
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Virtual Environment
+# If you use a virtual environment named differently, add it here
+# For example, if your virtual environment is named 'my_env', add:
+# my_env/
+
+# Data files
+# Add any data files or directories that are generated or too large to commit
+# e.g.,
+# data/
+# *.csv
+# *.log
+
+# Other
+.DS_Store # macOS
+Thumbs.db # Windows
