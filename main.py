@@ -106,7 +106,7 @@ class RelicScorerApp:
 
         if is_head_or_hands:
             return subscore
-        return 5 * main_wt + 0.8 * subscore
+        return 5.832  * main_wt + 1 * subscore
 
     def run(self):
         st.title("HSR Relic Scorer")
