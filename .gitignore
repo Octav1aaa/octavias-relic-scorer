@@ -34,3 +34,5 @@ pip-delete-this-directory.txt
 # Other
 .DS_Store # macOS
 Thumbs.db # Windows
+/main.spec
+/ttt/
