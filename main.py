@@ -6,12 +6,33 @@ import random
 from PIL import Image
 import asyncio
 import enka
+from enka.enums.hsr import StatType  # Import StatType enum from enka
 
 
 def normalize_name(s):
     s = s.lower()
     s = re.sub(r"[ .&()-]", "", s)
     return s
+
+
+def normalize_stat_enum(stat_enum_val):
+    # Map StatType enum values to readable stat strings
+    mapping = {
+        StatType.FIGHT_PROP_HP: "HP",
+        StatType.FIGHT_PROP_ATTACK: "ATK",
+        StatType.FIGHT_PROP_DEFENSE: "DEF",
+        StatType.FIGHT_PROP_HP_PERCENT: "HP%",
+        StatType.FIGHT_PROP_ATTACK_PERCENT: "ATK%",
+        StatType.FIGHT_PROP_DEFENSE_PERCENT: "DEF%",
+        StatType.FIGHT_PROP_CRITICAL: "CritRate",
+        StatType.FIGHT_PROP_CRITICAL_HURT: "CritDMG",
+        StatType.FIGHT_PROP_CHARGE_EFFICIENCY: "EHR%",
+        StatType.FIGHT_PROP_ELEMENT_RES: "EffectRES%",
+        StatType.FIGHT_PROP_BREAK_EFFECT: "Break%",
+        StatType.FIGHT_PROP_SPEED: "SPD",
+        # Add more mappings if needed
+    }
+    return mapping.get(stat_enum_val, str(stat_enum_val))
 
 
 class RelicScorerApp:
@@ -212,12 +233,14 @@ class RelicScorerApp:
                         "Substat 3": {"Substat": None, "Value": None, "Rolls": None},
                         "Substat 4": {"Substat": None, "Value": None, "Rolls": None},
                     }
-                    if relic:
-                        relic_info["Mainstat"] = f"{relic.main_stat.name} - {relic.main_stat.value}" if relic.main_stat else None
+                    if relic and relic.main_stat and relic.main_stat.prop:
+                        stat_name = normalize_stat_enum(relic.main_stat.prop)
+                        relic_info["Mainstat"] = f"{stat_name} - {relic.main_stat.value}"
                         for i, sub_stat in enumerate(relic.sub_stats):
-                            if i < 4:
+                            if i < 4 and sub_stat.prop is not None:
+                                sub_name = normalize_stat_enum(sub_stat.prop)
                                 relic_info[f"Substat {i + 1}"] = {
-                                    "Substat": sub_stat.name,
+                                    "Substat": sub_name,
                                     "Value": sub_stat.value,
                                     "Rolls": None,
                                 }
@@ -239,7 +262,7 @@ class RelicScorerApp:
         else:
             st.title("HSR Relic Scorer")
 
-            col1, col2 = st.columns([3, 1])
+            col1, col2 = st.columns([1.7, 1])
 
             with col1:
                 scoring = st.selectbox(
@@ -363,7 +386,6 @@ class RelicScorerApp:
                 rolls_inputs.append(rolls)
                 total_rolls += rolls
 
-                # Update only the manual gui dict
                 st.session_state.gui_relic_data[piece][f"Substat {i + 1}"] = {
                     "Substat": stat,
                     "Value": val,
@@ -396,7 +418,7 @@ class RelicScorerApp:
                 if stat != "None":
                     st.write(f"Substat {i + 1}: {stat} | Value: {val} | Rolls: {rolls}")
 
-            # Show current manual relic dict for selected piece
+            # Additional manual relic dict display and load UI below manual inputs
             st.markdown("---")
             st.write(f"Manual relic dict for piece '{piece}':")
             current_dict = st.session_state.gui_relic_data.get(piece, {})
