@@ -71,7 +71,7 @@ class RelicScorerApp:
         return normalized
 
     def denormalize_name(self, normalized_key):
-        return ' '.join(word.capitalize() for word in re.findall(r'[a-z, 1-7]+', normalized_key))
+        return ' '.join(word.capitalize() for word in re.findall(r'[a-z, 0-9]+', normalized_key))
 
     def update_mainstat_choices(self, piece):
         piece_lower = piece.lower()
@@ -109,36 +109,64 @@ class RelicScorerApp:
             return subscore
         return 5.832  * main_wt + 1 * subscore
 
+    import streamlit as st
+    import os
+
     def run(self):
         st.title("HSR Relic Scorer")
 
-        scoring = st.selectbox("Scoring Criteria", self.scoring_options)
-        piece = st.selectbox("Piece", self.piece_choices)
+        # Shorten dropdown display labels
+        scoring = st.selectbox(
+            "Scoring Criteria",
+            self.scoring_options,
+            format_func=lambda x: x[:10] + "…" if len(x) > 13 else x
+        )
+        piece = st.selectbox(
+            "Piece",
+            self.piece_choices,
+            format_func=lambda x: x[:10] + "…" if len(x) > 13 else x
+        )
 
         mainstat_options = self.update_mainstat_choices(piece)
         if not mainstat_options:
             st.warning(f"No valid mainstat options for piece {piece}.")
             mainstat = None
         else:
-            mainstat = st.selectbox("Mainstat", mainstat_options)
+            mainstat = st.selectbox(
+                "Mainstat",
+                ["None"] + mainstat_options,
+                format_func=lambda x: x[:10] + "…" if len(x) > 13 else x
+            )
 
         st.markdown("---")
+
+        # Display image based on mainstat selection
+        img_path = os.path.join("png", f"{scoring}.png")
+        if os.path.exists(img_path):
+            st.image(img_path, caption=scoring)
+        else:
+            st.info(f"No image found for {scoring}")
 
         st.write("### Substats")
         substats = []
         total_rolls = 0
         rolls_inputs = []
-        invalid_rolls = False
 
         # For each of the 4 substats, create three inputs (stat, value, rolls)
         for i in range(4):
-            col1, col2, col3 = st.columns([3,2,2])
+            col1, col2, col3 = st.columns([3, 2, 2])
             with col1:
-                stat = st.selectbox(f"Substat {i+1}", self.substat_choices, key=f"substat_{i}")
+                stat = st.selectbox(f"Substat {i + 1}", self.substat_choices, key=f"substat_{i}")
             with col2:
-                val = st.number_input(f"Value {i+1}", min_value=0.0, max_value=9999.9, value=0.0, step=0.1, format="%.1f", key=f"value_{i}")
+                val = st.number_input(
+                    f"Value {i + 1}", min_value=0.0, max_value=9999.9, value=0.0,
+                    step=0.1, format="%.1f", key=f"value_{i}"
+                )
             with col3:
-                rolls = st.number_input(f"Rolls {i+1}", min_value=0, max_value=self.MAX_ROLLS, value=0, step=1, key=f"rolls_{i}")
+                rolls = st.number_input(
+                    f"Rolls {i + 1}", min_value=0, max_value=self.MAX_ROLLS,
+                    value=0, step=1, key=f"rolls_{i}"
+                )
 
             substats.append((stat, val))
             rolls_inputs.append(rolls)
@@ -147,7 +175,7 @@ class RelicScorerApp:
         if total_rolls > self.MAX_ROLLS:
             st.error(f"Total rolls {total_rolls} exceed maximum allowed {self.MAX_ROLLS}.")
 
-        if mainstat is None:
+        if mainstat is None or mainstat == "None":
             points = 0
             st.warning("Cannot calculate score without a valid mainstat.")
         else:
@@ -163,7 +191,8 @@ class RelicScorerApp:
         st.write("### Substat Details:")
         for i, ((stat, val), rolls) in enumerate(zip(substats, rolls_inputs)):
             if stat != "None":
-                st.write(f"Substat {i+1}: {stat} | Value: {val} | Rolls: {rolls}")
+                st.write(f"Substat {i + 1}: {stat} | Value: {val} | Rolls: {rolls}")
+
 
 if __name__ == "__main__":
     app = RelicScorerApp()
