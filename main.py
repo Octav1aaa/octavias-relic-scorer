@@ -3,6 +3,7 @@ import json
 import os
 import re
 
+
 def normalize_name(s):
     s = s.lower()
     s = re.sub(r'[ .&()-]', '', s)
@@ -70,7 +71,7 @@ class RelicScorerApp:
         return normalized
 
     def denormalize_name(self, normalized_key):
-        return ' '.join(word.capitalize() for word in re.findall(r'[a-z]+', normalized_key))
+        return ' '.join(word.capitalize() for word in re.findall(r'[a-z, 1-7]+', normalized_key))
 
     def update_mainstat_choices(self, piece):
         piece_lower = piece.lower()
